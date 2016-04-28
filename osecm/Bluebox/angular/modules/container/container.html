@@ -249,22 +249,11 @@
           </b>
          </td>
 
-
-
-         
-<<<<<<< HEAD
-         <td md-cell ng-repeat="field in selectedMetadataFields">
-         {{object.details[field]}}
-         </td>
-         
-         <td md-cell ng-repeat="field in selectedInternalMetadataFields">
-=======
          <td md-cell ng-repeat="field in selectedMetadataFields" class="bb-table-col">
          {{object.details[field]}}
          </td>
          
          <td md-cell ng-repeat="field in selectedInternalMetadataFields" class="bb-table-col">
->>>>>>> 55e6971d9da0e92245689b413584644f36a95c69
          {{field == "bytes" ? (object[field] | bytes) : object[field]}}
          </td>
          
